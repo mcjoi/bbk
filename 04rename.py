@@ -9,6 +9,7 @@ df04.rename(columns={'variety': 'Variety'}, inplace=True)
 
 print(df04.head(10))
 
+# select column named
 print(df04.loc[:,['Variety', 'sepal.length']].head(10))
 
 
